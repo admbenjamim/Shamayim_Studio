@@ -1,0 +1,36 @@
+FICHEIROS QUE FALTAM CRIAR NESTA PASTA (src/assets/images)
+============================================================
+Estes ainda não existiam no teu projeto, por isso os nomes abaixo
+foram escolhidos por mim, seguindo o mesmo padrão que já usaste
+(foto_ para fotos soltas, work_ para capas, video_ para vídeos):
+
+foto_sobre.jpg                              -> foto da secção "Sobre"
+
+video_silencio_oceanico.mp4                 -> vídeo do projeto "Celebração Atmosfera"
+video_a_presenca.mp4                        -> vídeo do projeto "A Presença"
+video_tabernaculo_moderno.mp4               -> vídeo do projeto "Tabernáculo Moderno"
+video_energia_vazia.mp4                     -> vídeo do projeto "Energia Vazia"
+
+work_silencio_oceanico_galeria1.jpg
+work_silencio_oceanico_galeria2.jpg
+work_silencio_oceanico_galeria3.jpg
+work_silencio_oceanico_galeria4.jpg         -> galeria do projeto "Celebração Atmosfera"
+
+work_a_presenca_galeria1.jpg
+work_a_presenca_galeria2.jpg
+work_a_presenca_galeria3.jpg
+work_a_presenca_galeria4.jpg                -> galeria do projeto "A Presença"
+
+work_tabernaculo_moderno_galeria1.jpg
+work_tabernaculo_moderno_galeria2.jpg
+work_tabernaculo_moderno_galeria3.jpg
+work_tabernaculo_moderno_galeria4.jpg       -> galeria do projeto "Tabernáculo Moderno"
+
+work_energia_vazia_galeria1.jpg
+work_energia_vazia_galeria2.jpg
+work_energia_vazia_galeria3.jpg
+work_energia_vazia_galeria4.jpg             -> galeria do projeto "Energia Vazia"
+
+Enquanto não colocares um destes ficheiros, o VS Code assinala erro
+na respetiva linha "import" dentro de images.ts — é o próprio editor
+a indicar-te exatamente qual falta.

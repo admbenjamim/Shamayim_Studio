@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&family=Inter:wght@300;400;500;600&family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;1,300;1,400&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-display: "Space Grotesk", sans-serif;
+  --font-serif: "Cormorant Garamond", serif;
+
+  --color-studio-navy: #05070A;
+  --color-studio-charcoal: #121212;
+  --color-studio-amber: #FFB300;
+  --color-studio-white: #F8F8F8;
+}
+
+@layer base {
+  body {
+    @apply bg-studio-navy text-studio-white font-sans antialiased selection:bg-studio-amber selection:text-studio-navy;
+  }
+
+  /* Textura subtil aplicada a todas as secções com fundo escuro, para o
+     fundo deixar de parecer uma cor lisa "morta". Muito discreta:
+     um leve grão diagonal + dois brilhos ambiente suaves. */
+  .bg-studio-navy,
+  .bg-studio-charcoal {
+    background-image:
+      radial-gradient(circle at 12% 8%, rgba(255, 179, 0, 0.05), transparent 42%),
+      radial-gradient(circle at 88% 92%, rgba(248, 248, 248, 0.035), transparent 45%),
+      repeating-linear-gradient(
+        135deg,
+        rgba(248, 248, 248, 0.02) 0px,
+        rgba(248, 248, 248, 0.02) 1px,
+        transparent 1px,
+        transparent 4px
+      );
+    background-blend-mode: overlay, overlay, soft-light;
+  }
+}
+
+.cinematic-gradient {
+  background: radial-gradient(circle at 50% 50%, rgba(5, 7, 10, 1) 0%, rgba(18, 18, 18, 1) 100%);
+}
+
+.text-glow {
+  text-shadow: 0 0 20px rgba(255, 255, 255, 0.3);
+}
+
+.amber-glow {
+  filter: drop-shadow(0 0 10px rgba(255, 179, 0, 0.4));
+}

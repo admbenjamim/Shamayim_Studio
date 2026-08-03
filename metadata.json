@@ -1,0 +1,6 @@
+{
+  "name": "SHAMAYIM STUDIO",
+  "description": "Cinematic creative studio for premium video editing, graphic design, and visual identity for modern culture.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
